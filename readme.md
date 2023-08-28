@@ -44,9 +44,15 @@ go run main.go
 
 the apps will run on your localhost with port 8081
 
-## Dockerize this apps
+## Dockerize This Apps
 Simply run command below on your terminal
 
 ```
 docker build -t panic-qrcode:v1.0 .
+```
+
+Or using image from my repo
+
+```
+docker pull panicscript/panic-qrcode:v1.0
 ```
