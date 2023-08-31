@@ -14,7 +14,7 @@ pipeline {
         stage("build") {
             steps {
                 echo 'BUILD EXECUTION STARTED'
-                sh 'docker build -t localhost:5000/panicscript/test-jenkins-qrcode:v1.1'
+                sh 'docker build -t localhost:5000/panicscript/test-jenkins-qrcode:v1.1 .'
             }
         }
         // stage('deliver') {
