@@ -20,8 +20,9 @@ pipeline {
         // stage('deliver') {
         //     agent any
         //     steps {
-        //         withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'dockerhubPassword', 
-usernameVariable: 'dockerhubUser')]) {
+        //         withCredentials([usernamePassword(credentialsId: 'dockerhub', 
+        //                            passwordVariable: 'dockerhubPassword', 
+        //                            usernameVariable: 'dockerhubUser')]) {
         //         sh "docker login -u ${env.dockerhubUser} -p ${env.dockerhubPassword}"
         //         sh 'docker push shadowshotx/product-go-micro'
         //         }
